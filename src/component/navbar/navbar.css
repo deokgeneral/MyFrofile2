@@ -1,0 +1,29 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+.navbar div,
+.navbar ul{
+    padding: 10px 30px;
+}
+.navbar-title span{
+    color:#3498db;
+}
+.navbar-menu{
+    display: flex;
+    list-style-type: none;
+}
+.navbar-menu li{
+    margin-left: 50px;
+    cursor: pointer;
+    transition: color 0.3s ease; 
+}
+.navbar-menu li:hover{
+    color: #3498db;
+}
