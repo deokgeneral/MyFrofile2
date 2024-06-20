@@ -7,8 +7,8 @@ export default function Section1() {
   return (
     <div id='section1' className='section section1-container'>
       <div className='section1-title'>
-        <p>주니어 프론트엔드 개발자</p>
-        <p><span>민덕기</span>입니다.</p>
+        <h2>FRONT-END DEVELOPER.</h2>
+        <h3><span>민덕기</span></h3>
         <div className='section1-info'>
           <p>유저의 니즈를 파악하며</p>
           <p>지치지않고 성장하는 개발자가 되겠습니다</p>

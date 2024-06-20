@@ -2,3 +2,15 @@
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: 'Freesentation-9Black';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KyoboHandwriting2023wsa';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404-2@1.0/KyoboHandwriting2023wsa.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

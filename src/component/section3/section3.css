@@ -1,4 +1,76 @@
-.section3-container{
-    background-color: bisque;
-    height: 100vh;
+.section3-container {
+    background-color: black;
+    color: white;
+    padding: 0 200px;
+}
+.skill-title {
+    text-align: right;
+    padding-top: 30px;
+}
+.skill-title h2 {
+    font-size: 150px;
+    font-weight: 900;
+    color: #333;
+}
+.skill-title h4 {
+    font-size: 60px;
+    font-weight: 900;
+    position: relative;
+    top: -100px;
+    right: 80px;
+}
+.skill-img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -66px;
+}
+.skill-img01,
+.skill-img02,
+.skill-img03{
+    margin-top: 30px;
+}
+.skill-img-title{
+    font-size: 30px;
+    font-family: 'Freesentation-9Black';
+    text-align: center;
+}
+.skill-img01-img,
+.skill-img02-img,
+.skill-img03-img{
+    width: 1072.8px;
+    height: 170px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.4s;
+}
+.skill-img01 img,
+.skill-img02 img,
+.skill-img03 img {
+    width: 110px;
+    margin: 15px;
+}
+.skill-img01 img:nth-child(1),
+.skill-img02 img:nth-child(1),
+.skill-img03 img:nth-child(1) {
+    width: 320px;
+}
+.skill-img01:hover,
+.skill-img02:hover,
+.skill-img03:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+/* 진동 애니메이션 */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
 }
