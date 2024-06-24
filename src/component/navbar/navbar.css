@@ -5,14 +5,18 @@
     display: flex;
     justify-content: space-between;
     color: white;
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 900;
     transition: background-color 1s, border-bottom 1s;
     z-index: 999;
+    align-items: center;
 }
 .navbar div,
 .navbar ul{
     padding: 10px 30px;
+}
+.navbar-title p{
+    font-size: 20px;
 }
 .navbar-title span{
     color:#3498db;
@@ -22,17 +26,17 @@
     list-style-type: none;
 }
 .navbar-menu li{
-    margin-left: 50px;
+    margin-left: 90px;
     cursor: pointer;
     transition: color 0.3s ease; 
 }
 .navbar-menu li:hover{
-    color: #333;
+    color: #3498db;
     text-decoration: underline;
 }
 
 /*스크롤이벤트*/
 .navbar.scrolled {
-    background-color: rgba(184, 184, 184, 0.3);
+    background-color: #333;
     border-bottom: 2px solid white;
   }

@@ -37,6 +37,9 @@ export default function Navbar() {
         <li>
           <Link to="section3" smooth={true} duration={500}>SKILL</Link>
         </li>
+        <li>
+          <Link to="section4" smooth={true} duration={500}>STORY</Link>
+        </li>
       </ul>
     </div>
   );

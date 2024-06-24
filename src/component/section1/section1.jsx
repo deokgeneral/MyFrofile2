@@ -7,15 +7,16 @@ export default function Section1() {
   return (
     <div id='section1' className='section section1-container'>
       <div className='section1-title'>
-        <h2>FRONT-END DEVELOPER.</h2>
+        <h2>FRONT-END.</h2>
+        <h2>DEVELOPER</h2>
         <h3><span>민덕기</span></h3>
         <div className='section1-info'>
-          <p>유저의 니즈를 파악하며</p>
-          <p>지치지않고 성장하는 개발자가 되겠습니다</p>
+          <p>유저의 니즈를 파악하며
+          지치지않고 성장하는 개발자가 되겠습니다</p>
         </div>
       </div>
       <Link to="section2" smooth={true} duration={500} className='section1-button'>
-        <p>알아보기</p>
+        <p>NEXT</p>
       </Link>
     </div>
   );

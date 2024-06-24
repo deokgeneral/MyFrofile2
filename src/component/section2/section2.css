@@ -21,7 +21,7 @@
 }
 .about-me-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: -66px;
     align-items: center;
 }
@@ -45,7 +45,7 @@
     font-size: 40px;
 }
 .info-detail{
-    font-size: 17px;
+    font-size: 12px;
     font-weight: 700;
     display: flex;
     flex-direction: column;
@@ -65,8 +65,7 @@
 }
 .about-me_info2{
     font-family: 'KyoboHandwriting2023wsa';
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 17px;
     margin-top: 50px;
 }
 .about-me_info2 p span {
@@ -84,8 +83,7 @@
     animation: underline 1.5s forwards; 
 }
 .about-me_img img{
-    width: 300px;
-    border: 2px solid white;
+    width: 240px;
     border-radius: 10px;
 }
 .about-me_list {
