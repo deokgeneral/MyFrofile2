@@ -44,6 +44,26 @@ export default function Section3() {
             </div>
           </div>
         </div>
+        <div className='skill-scircles'>
+          <div className='skill-scircles_html'>
+            <h2>HTML</h2>
+            <div className='skill-scircle'>
+              <p>80%</p>
+            </div>
+          </div>
+          <div className='skill-scircles_css'>
+            <h2>CSS</h2>
+            <div className='skill-scircle'>
+            <p>90%</p>
+            </div>
+          </div>
+          <div className='skill-scircles_js'>
+            <h2>JS</h2>
+            <div className='skill-scircle'>
+            <p>60%</p>
+            </div>
+          </div>
+        </div>
     </div>
   );
 }

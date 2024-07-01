@@ -89,7 +89,7 @@ export default function Section2() {
             </ul>
           </div>
           <div className='about-me_info2'>
-            <p><FaStar /> 건설현장에서 일을하며 자라온 저는</p>
+            <p><FaStar />어렸을적부터 건설현장에서 아르바이트를하며 자라온 저는</p>
             <p>힘들어도 <span>포기하지않는 근성</span> 으로 끝까지 발전하는 인재가 되겠습니다.</p>
           </div>
         </div>
